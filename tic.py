@@ -130,7 +130,7 @@ while True:  # keeps looping until valid symbol entered
 # --- Set up game board ---
 board = [
     ["1", "2", "3"], # row 1
-    ["4", "5", "6"], # row 1 
+    ["4", "5", "6"], # row 2
     ["7", "8", "9"] # row 3
 ]
 
@@ -169,6 +169,9 @@ while True: # loop keeps going until valid move is entered
 
 
 # --- Difficulty Mode Logic (placeholder for now) ---
-if difficulty == "Easy": ... 
-elif difficulty == "Medium": ...
-elif difficulty == "Hard": ...
+if difficulty == "Easy": 
+    pass
+elif difficulty == "Medium":
+    pass
+elif difficulty == "Hard":
+    pass
